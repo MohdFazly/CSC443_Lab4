@@ -9,7 +9,7 @@
 <body>
 <?php #Script handle form
 
-echo "<p> Thank you, <b>".$_POST["name"].
+echo
     if (strlen($_POST["name"]) >0)
     { 
     $_POST["name"] = $ POST ["name"];
