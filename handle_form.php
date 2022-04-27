@@ -11,7 +11,7 @@
 
 if (strlen($_POST["name"]) >0)
     { 
-    $_POST["name"] = $ POST ["name"];
+    $_POST["name"] = $ POST["name"];
     }
     else
     {
