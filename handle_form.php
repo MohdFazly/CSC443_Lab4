@@ -19,13 +19,14 @@ else
     echo '<p><b> You Forgot to Enter Your Name! </b></p>';
     }
 
+
 if (strlen($_POST["comments"]) >0) 
     { 
-        $_POST["comments"] $_POST["comments"]; 
+    $_POST["comments"] = $_POST["comments"]; 
     }
 else
     {
-    $_POST ["comments"]= null;
+    $_POST["comments"]= null;
     echo '<p><b> You Forgot to Enter Your Comments! </b></p>';
     }
 if(! (strlen($_POST["email"]) >0)) 
@@ -34,13 +35,14 @@ if(! (strlen($_POST["email"]) >0))
     echo '<p><b> You Forgot to Enter Your Emails! </b></p>';
     }
 
+
 if (isset($_POST["gender"])) 
     {
     if ($_POST["gender"] == 'M') 
     {
         $message = '<b><p>Good Day, Sir </b></p>';
     }
-    if ($_POST["gender"] === 'F') 
+    if ($_POST["gender"] == 'F') 
     {
         $message '<b><p>Good Day, Madam </b></p>'; =
     }
@@ -48,6 +50,7 @@ if (isset($_POST["gender"]))
         $_POST["gender"] = null;
         echo '<p><b> You Forgot to Choose Your Gender! </b></p>';
     }
+
 
 if ($_POST["name"] && $_POST["comments"] && $_POST["email"] && $_POST["gender"]) 
     { echo "Thank you," .$_POST["name"]. " for the following comments: <br /> <tt>" 
