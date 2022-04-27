@@ -9,16 +9,7 @@
 <body>
 <?php #Script handle form
 
-if (strlen($_POST["name"]) >0)
-{ 
-    $_POST["name"] = $ POST ["name"];
-}
-else
-{
-    $_POST["name"]= null;
-    echo '<p><b> You Forgot to Enter Your Name! </b></p>';
-}
-
+echo "<p> Thank you, <b>".$_POST["name"].
 "</b> for the following comments: <br/>".
 $_POST["comments"]."<p>We will reply to you at <i>".
 $_POST["email"]." </i></p>";
