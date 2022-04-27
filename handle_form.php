@@ -21,7 +21,7 @@ else
 
 if (strlen($_POST["comments"]) >0) 
     { 
-        $_POST ["comments"] $_POST["comments"]; 
+        $_POST["comments"] $_POST["comments"]; 
     }
 else
     {
