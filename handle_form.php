@@ -9,8 +9,7 @@
 <body>
 <?php #Script handle form
 
-echo
-    if (strlen($_POST["name"]) >0)
+if (strlen($_POST["name"]) >0)
     { 
     $_POST["name"] = $ POST ["name"];
     }
