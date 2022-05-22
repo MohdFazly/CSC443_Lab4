@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+
 <?php
 $a = "PHP";
 $a = $a + 1;
